@@ -111,7 +111,7 @@ with st.sidebar:
 
 
 # Read soil spectra
-soil = np.load('data\soil.npy')
+soil = np.load('soil.npy')
 spectra = run_prosail(
     n, 
     cab,
